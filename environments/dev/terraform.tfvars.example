@@ -1,0 +1,27 @@
+project_name       = "coderhouse"
+environment        = "dev"
+aws_region         = "us-east-1"
+vpc_cidr           = "10.20.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b"]
+
+data_prefix = "processing"
+
+# Reemplazar con un principal real de la cuenta.
+audit_principal_arns = [
+  "arn:aws:iam::123456789012:root"
+]
+
+flink_jar_path    = "../../application/target/realtime-metrics-flink-1.0.0.jar"
+start_application = true
+
+# 2 subtareas / 2 por KPU = 1 KPU inicial.
+parallelism          = 2
+parallelism_per_kpu  = 2
+auto_scaling_enabled = false
+
+checkpoint_interval_ms   = 60000
+watermark_delay_seconds  = 10
+watermark_idle_seconds   = 30
+window_size_seconds      = 60
+allowed_lateness_seconds = 30
+log_retention_days       = 7

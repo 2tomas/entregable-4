@@ -1,0 +1,10 @@
+Comando ejecutado:
+
+aws --endpoint-url=http://localhost:4566 s3 ls s3://coderhouse-dev-lakehouse/ingesta/ --recursive
+
+Salida obtenida el 31/10/2026:
+
+2026-10-31 20:10:03       9175 ingesta/year=!{timestamp:yyyy}/month=!{timestamp:MM}/day=!{timestamp:dd}/2026/10/31/23/terraform-kinesis-firehose-extended-s3-dev-2026-10-31-23-10-03-0af49a83-3ee9-43f6-b397-45b44cef2be4
+2026-10-31 20:10:03       7817 ingesta/year=!{timestamp:yyyy}/month=!{timestamp:MM}/day=!{timestamp:dd}/2026/10/31/23/terraform-kinesis-firehose-extended-s3-dev-2026-10-31-23-10-03-253987f2-0ff9-42be-9320-c78179fc5394
+
+La salida confirma que los eventos recorrieron Kinesis Data Streams y Firehose hasta persistirse en el bucket S3 del Data Lake.

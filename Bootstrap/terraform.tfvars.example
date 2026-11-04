@@ -1,0 +1,3 @@
+# Debe ser globalmente unico. Reemplazar 123456789012 por el ID de la cuenta.
+state_bucket_name = "coderhouse-terraform-state-123456789012"
+aws_region        = "us-east-1"

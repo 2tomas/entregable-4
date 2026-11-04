@@ -1,0 +1,69 @@
+{
+    "events":  [
+                   {
+                       "timestamp":  1793759770327,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 1 for job 08f55c27e0720ddaf15b02d492e92246 (78253 bytes, checkpointDuration=1290 ms, finalizationTime=230 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-1\"}",
+                       "ingestionTime":  1793759771340
+                   },
+                   {
+                       "timestamp":  1793759829771,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 2 for job 08f55c27e0720ddaf15b02d492e92246 (87353 bytes, checkpointDuration=661 ms, finalizationTime=304 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-1\"}",
+                       "ingestionTime":  1793759830330
+                   },
+                   {
+                       "timestamp":  1793759889613,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 3 for job 08f55c27e0720ddaf15b02d492e92246 (87353 bytes, checkpointDuration=537 ms, finalizationTime=272 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-2\"}",
+                       "ingestionTime":  1793759890330
+                   },
+                   {
+                       "timestamp":  1793759949985,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 4 for job 08f55c27e0720ddaf15b02d492e92246 (87353 bytes, checkpointDuration=811 ms, finalizationTime=370 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-1\"}",
+                       "ingestionTime":  1793759950349
+                   },
+                   {
+                       "timestamp":  1793760009622,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 5 for job 08f55c27e0720ddaf15b02d492e92246 (87353 bytes, checkpointDuration=531 ms, finalizationTime=284 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-1\"}",
+                       "ingestionTime":  1793760010330
+                   },
+                   {
+                       "timestamp":  1793760069657,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 6 for job 08f55c27e0720ddaf15b02d492e92246 (87353 bytes, checkpointDuration=561 ms, finalizationTime=291 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-2\"}",
+                       "ingestionTime":  1793760070329
+                   },
+                   {
+                       "timestamp":  1793760129750,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 7 for job 08f55c27e0720ddaf15b02d492e92246 (87353 bytes, checkpointDuration=600 ms, finalizationTime=346 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-2\"}",
+                       "ingestionTime":  1793760130332
+                   },
+                   {
+                       "timestamp":  1793760189625,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 8 for job 08f55c27e0720ddaf15b02d492e92246 (87353 bytes, checkpointDuration=517 ms, finalizationTime=304 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-1\"}",
+                       "ingestionTime":  1793760190330
+                   },
+                   {
+                       "timestamp":  1793760236414,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"1\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 9 for job 08f55c27e0720ddaf15b02d492e92246 (14175 bytes, checkpointDuration=719 ms, finalizationTime=2 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-2\"}",
+                       "ingestionTime":  1793760237334
+                   },
+                   {
+                       "timestamp":  1793760304722,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"2\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 10 for job 08f55c27e0720ddaf15b02d492e92246 (87348 bytes, checkpointDuration=1054 ms, finalizationTime=421 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-2\"}",
+                       "ingestionTime":  1793760305642
+                   },
+                   {
+                       "timestamp":  1793760364312,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"2\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 11 for job 08f55c27e0720ddaf15b02d492e92246 (97296 bytes, checkpointDuration=708 ms, finalizationTime=360 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-1\"}",
+                       "ingestionTime":  1793760364645
+                   },
+                   {
+                       "timestamp":  1793760424113,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"2\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 12 for job 08f55c27e0720ddaf15b02d492e92246 (106022 bytes, checkpointDuration=593 ms, finalizationTime=276 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-1\"}",
+                       "ingestionTime":  1793760424642
+                   },
+                   {
+                       "timestamp":  1793760484144,
+                       "message":  "{\"applicationARN\":\"arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics\",\"applicationVersionId\":\"2\",\"locationInformation\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator.logCheckpointInfo(CheckpointCoordinator.java:1447)\",\"logger\":\"org.apache.flink.runtime.checkpoint.CheckpointCoordinator\",\"message\":\"Completed checkpoint 13 for job 08f55c27e0720ddaf15b02d492e92246 (106022 bytes, checkpointDuration=601 ms, finalizationTime=299 ms).\",\"messageSchemaVersion\":\"1\",\"messageType\":\"INFO\",\"threadName\":\"jobmanager-io-thread-2\"}",
+                       "ingestionTime":  1793760484642
+                   }
+               ]
+}

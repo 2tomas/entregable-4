@@ -1,0 +1,87 @@
+{
+    "ApplicationDetail": {
+        "ApplicationARN": "arn:aws:kinesisanalytics:us-east-1:482731905614:application/coderhouse-dev-realtime-metrics",
+        "ApplicationDescription": "Metricas por usuario con event time, watermarks, ventanas y KeyedState.",
+        "ApplicationName": "coderhouse-dev-realtime-metrics",
+        "RuntimeEnvironment": "FLINK-1_20",
+        "ServiceExecutionRole": "arn:aws:iam::482731905614:role/coderhouse-dev-managed-flink",
+        "ApplicationStatus": "RUNNING",
+        "ApplicationVersionId": 2,
+        "CreateTimestamp": "2026-11-03T23:31:10-03:00",
+        "LastUpdateTimestamp": "2026-11-03T23:44:54-03:00",
+        "ApplicationConfigurationDescription": {
+            "ApplicationCodeConfigurationDescription": {
+                "CodeContentType": "ZIPFILE",
+                "CodeContentDescription": {
+                    "CodeMD5": "176be511475b6157a63243e298d3541b",
+                    "CodeSize": 40213430,
+                    "S3ApplicationCodeLocationDescription": {
+                        "BucketARN": "arn:aws:s3:::coderhouse-dev-flink-artifacts-482731905614",
+                        "FileKey": "flink/realtime-metrics-flink-1.0.0.jar",
+                        "ObjectVersion": "m0894G5IFRHx3fauZR5Q75_Rl.zk7ijR"
+                    }
+                }
+            },
+            "RunConfigurationDescription": {
+                "ApplicationRestoreConfigurationDescription": {
+                    "ApplicationRestoreType": "RESTORE_FROM_LATEST_SNAPSHOT"
+                },
+                "FlinkRunConfigurationDescription": {
+                    "AllowNonRestoredState": false
+                }
+            },
+            "FlinkApplicationConfigurationDescription": {
+                "CheckpointConfigurationDescription": {
+                    "ConfigurationType": "CUSTOM",
+                    "CheckpointingEnabled": true,
+                    "CheckpointInterval": 60000,
+                    "MinPauseBetweenCheckpoints": 5000
+                },
+                "MonitoringConfigurationDescription": {
+                    "ConfigurationType": "CUSTOM",
+                    "MetricsLevel": "TASK",
+                    "LogLevel": "INFO"
+                },
+                "ParallelismConfigurationDescription": {
+                    "ConfigurationType": "CUSTOM",
+                    "Parallelism": 2,
+                    "ParallelismPerKPU": 2,
+                    "CurrentParallelism": 2,
+                    "AutoScalingEnabled": false
+                }
+            },
+            "EnvironmentPropertyDescriptions": {
+                "PropertyGroupDescriptions": [
+                    {
+                        "PropertyGroupId": "InputProperties",
+                        "PropertyMap": {
+                            "source.parallelism": "2",
+                            "stream.arn": "arn:aws:kinesis:us-east-1:482731905614:stream/terraform-kinesis-dev",
+                            "stream.initial.position": "LATEST",
+                            "watermark.idleness.seconds": "30",
+                            "watermark.out.of.orderness.seconds": "10",
+                            "window.allowed.lateness.seconds": "30",
+                            "window.size.seconds": "60"
+                        }
+                    }
+                ]
+            },
+            "ApplicationSnapshotConfigurationDescription": {
+                "SnapshotsEnabled": true
+            }
+        },
+        "CloudWatchLoggingOptionDescriptions": [
+            {
+                "CloudWatchLoggingOptionId": "1.1",
+                "LogStreamARN": "arn:aws:logs:us-east-1:482731905614:log-group:/aws/managed-flink/coderhouse-dev-realtime-metrics:log-stream:application"
+            }
+        ],
+        "ApplicationMaintenanceConfigurationDescription": {
+            "ApplicationMaintenanceWindowStartTime": "03:00",
+            "ApplicationMaintenanceWindowEndTime": "11:00"
+        },
+        "ApplicationVersionUpdatedFrom": 1,
+        "ConditionalToken": "5f71d9e22ff4de94cf72d4869a0455fd",
+        "ApplicationMode": "STREAMING"
+    }
+}

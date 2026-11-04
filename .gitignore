@@ -1,0 +1,33 @@
+# Maven
+application/target/
+*.class
+
+# Terraform
+**/.terraform/*
+# Borrador local previo; el root canonico integrado es environments/dev.
+/infrastructure/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+terraform.tfvars
+backend.hcl
+crash.log
+crash.*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Credentials and local configuration
+.env
+.env.*
+!*.example
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
